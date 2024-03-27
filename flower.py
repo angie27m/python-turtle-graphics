@@ -2,10 +2,11 @@ from turtle import *
 import colorsys
 import math
 
+#  Sets the drawing speed to 0.25 (slower speed for better visualization).
 speed(0.25)
 bgcolor("black")
 
-# Genera los petalos
+# Generate petals
 goto(0, -40)
 h = 0
 
@@ -20,7 +21,7 @@ for i in range(16):
         rt(180)
     circle(40, 24)
 
-# Genera la parte centrall de la flor
+# Generate the center
 color("black") 
 shape("turtle")
 fillcolor("brown")
